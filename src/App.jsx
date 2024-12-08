@@ -17,10 +17,10 @@ function App() {
       <div className={`fullscreen ${bgColor}`}>
         <h1 className="text-center">Background Color</h1>
         <div className="text-center">
-          <button onClick={() => changeBgColor('bg-danger')} className="btn btn-secondary ms-5">Red</button>
-          <button onClick={() => changeBgColor('bg-primary')} className="btn btn-secondary ms-5">Blue</button>
-          <button onClick={() => changeBgColor('bg-warning')} className="btn btn-secondary ms-5">Yellow</button>
-          <button onClick={() => changeBgColor('bg-success')} className="btn btn-secondary ms-5">Green</button>
+          <button onClick={() => changeBgColor('bg-danger')} className="btn btn-danger ms-5 rounded-pill border border-dark">Red</button>
+          <button onClick={() => changeBgColor('bg-primary')} className="btn btn-primary ms-5 rounded-pill border border-dark">Blue</button>
+          <button onClick={() => changeBgColor('bg-warning')} className="btn btn-warning ms-5 rounded-pill border border-dark">Yellow</button>
+          <button onClick={() => changeBgColor('bg-success')} className="btn btn-success ms-5 rounded-pill border border-dark">Green</button>
         </div>
       </div>
     </>
